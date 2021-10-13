@@ -20,8 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # arguments of path first is destination loaction
     # path('', views.index, name='home'),
-    url(r'^$', TemplateView.as_view(template_name='static_pages/index.html'),
-        name='home'),
+    # url(r'^$', TemplateView.as_view(template_name='static_pages/index.html'),
+    #     name='home'),
     # arguments of path first is destination loaction this must prest in views.py file
     path('amit', views.amit, name='this is amit page'),
     path('about', views.about, name='about'),

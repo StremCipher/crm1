@@ -22,7 +22,7 @@ def index(requst):
 
 
 def input_area(requst):
-    return render(requst, 'i nput_text.html')
+    return render(requst, 'input_text.html')
 
 
 def output_area(requst):
