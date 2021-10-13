@@ -1,32 +1,28 @@
 # i have created this file stream_cipher
-from django.http import ttpResponse
+from django.http import httpResponse
 from django.shortcuts import render
 # without template
-
-
 
 
 def amit(requst):
     return HttpResponse("this is amit wala page")
 
 
-# with template 
+# with template
 
 
 def about(requst):
     return render(requst,  'about.html'
-)
+                  )
 
 
-def index(requst): 
-
+def index(requst):
 
     return render(requst, 'index.html')
 
-   
+
 def input_area(requst):
-    return   render(requst, 'i nput_text.html')
-  
+    return render(requst, 'i nput_text.html')
 
 
 def output_area(requst):
