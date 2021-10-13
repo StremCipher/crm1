@@ -1,5 +1,5 @@
 # i have created this file stream_cipher
-from django.http import httpResponse
+from django.http import HttpResponse
 from django.shortcuts import render
 # without template
 
